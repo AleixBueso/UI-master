@@ -1,0 +1,189 @@
+﻿Build started 03/12/2015 0:09:01.
+     1>Project "C:\Users\usuario\Documents\GitHub\UI-master\Motor2D\Motor2D.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Archivos de programa\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _ITERATOR_DEBUG_LEVEL=0 /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt j1App.cpp j1Gui.cpp j1Scene.cpp
+         j1Scene.cpp
+     1>c:\users\usuario\documents\github\ui-master\motor2d\image.h(8): error C2504: 'UI_Element' : base class undefined
+     1>c:\users\usuario\documents\github\ui-master\motor2d\label.h(10): error C2504: 'UI_Element' : base class undefined
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(16): error C3254: 'UI_Element' : class contains explicit override '{ctor}' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(16): error C2838: '{ctor}' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(16): error C2535: 'UI_Element::UI_Element(void)' : member function already defined or declared
+                 c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(20) : see declaration of 'UI_Element::UI_Element'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(23): error C3254: 'UI_Element' : class contains explicit override '{dtor}' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(23): error C2838: '{dtor}' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(27): error C3254: 'UI_Element' : class contains explicit override 'Awake' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(27): error C2838: 'Awake' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(36): error C3254: 'UI_Element' : class contains explicit override 'Start' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(36): error C2838: 'Start' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(63): error C3254: 'UI_Element' : class contains explicit override 'PreUpdate' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(63): error C2838: 'PreUpdate' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(93): error C3254: 'UI_Element' : class contains explicit override 'Update' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(93): error C2838: 'Update' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(152): error C3254: 'UI_Element' : class contains explicit override 'PostUpdate' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(152): error C2838: 'PostUpdate' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(163): error C3254: 'UI_Element' : class contains explicit override 'CleanUp' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(163): error C2838: 'CleanUp' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(163): error C2535: 'bool UI_Element::CleanUp(void)' : member function already defined or declared
+                 c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(38) : see declaration of 'UI_Element::CleanUp'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1scene.cpp(168): fatal error C1075: end of file found before the left brace '{' at 'c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(10)' was matched
+         j1Gui.cpp
+     1>c:\users\usuario\documents\github\ui-master\motor2d\image.h(8): error C2504: 'UI_Element' : base class undefined
+     1>c:\users\usuario\documents\github\ui-master\motor2d\label.h(10): error C2504: 'UI_Element' : base class undefined
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(12): error C3254: 'UI_Element' : class contains explicit override '{ctor}' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(12): error C2838: '{ctor}' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(12): error C2535: 'UI_Element::UI_Element(void)' : member function already defined or declared
+                 c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(20) : see declaration of 'UI_Element::UI_Element'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(19): error C3254: 'UI_Element' : class contains explicit override '{dtor}' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(19): error C2838: '{dtor}' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(23): error C3254: 'UI_Element' : class contains explicit override 'Awake' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(23): error C2838: 'Awake' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(34): error C3254: 'UI_Element' : class contains explicit override 'Start' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(34): error C2838: 'Start' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(46): error C3254: 'UI_Element' : class contains explicit override 'PreUpdate' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(46): error C2838: 'PreUpdate' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(52): error C3254: 'UI_Element' : class contains explicit override 'PostUpdate' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(52): error C2838: 'PostUpdate' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(58): error C3254: 'UI_Element' : class contains explicit override 'CleanUp' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(58): error C2838: 'CleanUp' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(58): error C2535: 'bool UI_Element::CleanUp(void)' : member function already defined or declared
+                 c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(38) : see declaration of 'UI_Element::CleanUp'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(69): error C3254: 'UI_Element' : class contains explicit override 'GetAtlas' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(69): error C2838: 'GetAtlas' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(76): error C3254: 'UI_Element' : class contains explicit override 'CreateImage' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(76): error C2838: 'CreateImage' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(84): error C3254: 'UI_Element' : class contains explicit override 'CreateLabel' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(84): error C2838: 'CreateLabel' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(91): error C2059: syntax error : 'return'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(91): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1gui.cpp(93): fatal error C1004: unexpected end-of-file found
+         j1App.cpp
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.h(125): error C2071: 'UI_Element::App' : illegal storage class
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(22): error C3254: 'UI_Element' : class contains explicit override '{ctor}' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(22): error C2838: '{ctor}' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(61): error C3254: 'UI_Element' : class contains explicit override '{dtor}' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(61): error C2838: '{dtor}' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(75): error C3254: 'UI_Element' : class contains explicit override 'AddModule' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(75): error C2838: 'AddModule' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(82): error C3254: 'UI_Element' : class contains explicit override 'Awake' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(82): error C2838: 'Awake' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(128): error C3254: 'UI_Element' : class contains explicit override 'Start' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(128): error C2838: 'Start' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(148): error C3254: 'UI_Element' : class contains explicit override 'Update' but does not derive from an interface that contains the function declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(148): error C2838: 'Update' : illegal qualified name in member declaration
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(148): error C2556: 'bool UI_Element::Update(void)' : overloaded function differs only by return type from 'void UI_Element::Update(void)'
+                 c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(32) : see declaration of 'UI_Element::Update'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(148): error C2371: 'UI_Element::Update' : redefinition; different basic types
+                 c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(32) : see declaration of 'UI_Element::Update'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(150): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(150): warning C4183: 'PrepareUpdate': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(152): error C2059: syntax error : 'if'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(153): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(155): error C2059: syntax error : 'if'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(156): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(158): error C2059: syntax error : 'if'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(159): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(161): error C2059: syntax error : 'if'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(162): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(164): warning C4183: 'FinishUpdate': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(165): error C2059: syntax error : 'return'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(165): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(169): error C2027: use of undefined type 'j1App'
+                 c:\users\usuario\documents\github\ui-master\motor2d\j1module.h(12) : see declaration of 'j1App'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(169): error C2146: syntax error : missing ';' before identifier 'LoadConfig'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(52): error C2065: 'position' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(52): error C2228: left of '.x' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(53): error C2065: 'rect' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(53): error C2228: left of '.w' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(53): error C2065: 'position' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(53): error C2228: left of '.x' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(54): error C2065: 'position' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(54): error C2228: left of '.y' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(55): error C2065: 'rect' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(55): error C2228: left of '.h' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(55): error C2065: 'position' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\ui_element.h(55): error C2228: left of '.y' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(23): error C2614: 'UI_Element' : illegal member initialization: 'argc' is not a base or member
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(23): error C2614: 'UI_Element' : illegal member initialization: 'args' is not a base or member
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(24): error C2065: 'ptimer' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(24): error C2228: left of '.Start' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(26): error C2065: 'input' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(26): error C2512: 'UI_Element::j1Input' : no appropriate default constructor available
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(27): error C2065: 'win' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(27): error C2512: 'UI_Element::j1Window' : no appropriate default constructor available
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(28): error C2065: 'render' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(28): error C2512: 'UI_Element::j1Render' : no appropriate default constructor available
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(29): error C2065: 'tex' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(29): error C2512: 'UI_Element::j1Textures' : no appropriate default constructor available
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(30): error C2065: 'audio' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(30): error C2512: 'UI_Element::j1Audio' : no appropriate default constructor available
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(31): error C2065: 'scene' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(31): error C2512: 'UI_Element::j1Scene' : no appropriate default constructor available
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(32): error C2065: 'fs' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(32): error C2512: 'UI_Element::j1FileSystem' : no appropriate default constructor available
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(33): error C2065: 'map' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(33): error C2512: 'UI_Element::j1Map' : no appropriate default constructor available
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(34): error C2065: 'pathfinding' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(34): error C2512: 'UI_Element::j1PathFinding' : no appropriate default constructor available
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(35): error C2065: 'font' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(35): error C2512: 'UI_Element::j1Fonts' : no appropriate default constructor available
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(36): error C2065: 'gui' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(36): error C2512: 'UI_Element::j1Gui' : no appropriate default constructor available
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(37): error C2065: 'UI' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(41): error C2065: 'fs' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(42): error C2065: 'input' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(43): error C2065: 'win' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(44): error C2065: 'tex' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(45): error C2065: 'audio' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(46): error C2065: 'map' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(47): error C2065: 'pathfinding' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(48): error C2065: 'font' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(49): error C2065: 'gui' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(51): error C2065: 'scene' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(54): error C2065: 'render' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(56): error C2065: 'ptimer' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(56): error C2228: left of '.ReadMs' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(63): error C2065: 'modules' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(63): error C2228: left of '.end' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(71): error C2065: 'modules' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(71): error C2228: left of '.clear' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(77): error C2065: 'modules' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(77): error C2228: left of '.add' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(83): error C2065: 'ptimer' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(83): error C2228: left of '.Start' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(86): error C2146: syntax error : missing ';' before identifier 'config'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(86): error C2065: 'config' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(87): error C2146: syntax error : missing ';' before identifier 'app_config'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(87): error C2065: 'app_config' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(91): error C2065: 'config' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(91): error C3861: 'LoadConfig': identifier not found
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(93): error C2065: 'config' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(93): error C2228: left of '.empty' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(97): error C2065: 'app_config' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(97): error C2065: 'config' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(97): error C2228: left of '.child' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(98): error C2065: 'title' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(98): error C2228: left of '.create' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(98): error C2065: 'app_config' : undeclared identifier
+     1>c:\users\usuario\documents\github\ui-master\motor2d\j1app.cpp(98): fatal error C1003: error count exceeds 100; stopping compilation
+         Generating Code...
+     1>Done Building Project "C:\Users\usuario\Documents\GitHub\UI-master\Motor2D\Motor2D.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.06
